@@ -26,7 +26,11 @@ class TV:
     def setPrecio(self,precio):
         self.precio=precio
         
-        
+    def getControl(self):
+        return self.control
+
+    def setControl(self,control):
+        self.control=control    
 
     def getCanal(self):
         return self.canal 
@@ -54,11 +58,7 @@ class TV:
 
 
 
-    def getControl(self):
-        return self.control
-
-    def setControl(self,control):
-        self.control=control
+    
 
     def getVolumen(self):
         return self.volumen 
