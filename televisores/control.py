@@ -3,8 +3,8 @@ class Control:
         self.tv=None 
 
 
-     def enlazar(self,TV):
-         self.tv=TV
+     def enlazar(self,tv):
+         self.tv=tv
          self.tv.setcontrol(self)
 
 
