@@ -5,7 +5,7 @@ class Control:
 
      def enlazar(self,tv):
          self.tv=tv
-         self.tv.setcontrol(self)
+         tv.setcontrol(self)
 
 
      def getTv(self):
@@ -13,8 +13,6 @@ class Control:
 
      def setTv(self,tv):
         self.tv=tv 
-
-
 
      def setCanal(self,canal):
          self.tv.setcanal(canal)
@@ -39,5 +37,9 @@ class Control:
         self.tv.canalDown()    
 
      def canalUp(self):
-        self.tv.canalUp()
+        self.tv.canalUp()    
+
+
+
+     
 
