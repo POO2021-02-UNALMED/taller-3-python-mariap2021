@@ -5,8 +5,9 @@ class TV:
          self.estado=estado
          self.canal=1
          self.precio=500
-         self.control=None
          self.volumen=1
+         self.control=None
+         
          TV.numTV+=1
 	     
 
