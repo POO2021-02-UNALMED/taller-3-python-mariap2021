@@ -25,6 +25,8 @@ class Control:
      def turnOff(self):
         self.tv.turnOff()
 
+        
+
     
      def volumenUp(self):
         self.tv.volumenUp()
@@ -37,3 +39,4 @@ class Control:
 
      def canalUp(self):
         self.tv.canalUp()
+

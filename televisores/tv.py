@@ -34,8 +34,8 @@ class TV:
     def setCanal(self, canal):
         if(self.estado==False): 
             return
-            if(canal>=1 and canal <=120):
-                self.canal=canal
+        if(canal>=1 and canal <=120):
+            self.canal=canal
 		
     def getCanal(self):
         return self.canal
@@ -66,8 +66,8 @@ class TV:
     def setVolumen(self, volumen):
         if(self.estado==False): 
             return
-            if(volumen>=0 and volumen <=7):
-                self.volumen=volumen    
+        if(volumen>=0 and volumen <=7):
+            self.volumen=volumen    
 
     def volumenUp(self):
         if(self.estado==False and self.volumen==7): 
@@ -96,3 +96,6 @@ class TV:
 
     def turnOn(self):
         self.estado=True
+
+    def turnOff(self):
+        self.estado=False    
